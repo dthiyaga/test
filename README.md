@@ -1,5 +1,18 @@
-# test
+# Gold Standard Chess Improvement
 
-## Chess gold-standard study guide
+A GitHub Pages-ready static study site with 25 visual chess lessons distilled from modern grandmaster play since 2000.
 
-Open [`chess_principles_gold_standard.html`](./chess_principles_gold_standard.html) in a browser to study a curated, visual set of 25 modern grandmaster chess principles drawn from post-2000 elite-game patterns. The guide includes board diagrams, model games to review, and training questions for practical improvement.
+## View locally
+
+Open [`index.html`](./index.html) in any browser. The legacy [`chess_principles_gold_standard.html`](./chess_principles_gold_standard.html) page redirects to the GitHub Pages homepage.
+
+## Deploy with GitHub Pages
+
+This repository includes a Pages workflow at [`.github/workflows/pages.yml`](./.github/workflows/pages.yml). To publish it:
+
+1. Push this branch to GitHub.
+2. In the repository settings, go to **Settings → Pages**.
+3. Set **Build and deployment → Source** to **GitHub Actions**.
+4. Run the **Deploy GitHub Pages** workflow, or push to `work`/`main`.
+
+The deployed site serves [`index.html`](./index.html) as the homepage.
